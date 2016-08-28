@@ -12,6 +12,7 @@
 		B7262BB61D72A1B0006A6A6F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7262BB41D72A1B0006A6A6F /* Main.storyboard */; };
 		B7262BB81D72A1B0006A6A6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7262BB71D72A1B0006A6A6F /* Assets.xcassets */; };
 		B7262BBB1D72A1B0006A6A6F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7262BB91D72A1B0006A6A6F /* LaunchScreen.storyboard */; };
+		B7CE00341D72A27E00DB3723 /* Kitty.png in Resources */ = {isa = PBXBuildFile; fileRef = B7CE00331D72A27E00DB3723 /* Kitty.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		B7262BB71D72A1B0006A6A6F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B7262BBA1D72A1B0006A6A6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B7262BBC1D72A1B0006A6A6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7CE00331D72A27E00DB3723 /* Kitty.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Kitty.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				B7262BB71D72A1B0006A6A6F /* Assets.xcassets */,
 				B7262BB91D72A1B0006A6A6F /* LaunchScreen.storyboard */,
 				B7262BBC1D72A1B0006A6A6F /* Info.plist */,
+				B7CE00331D72A27E00DB3723 /* Kitty.png */,
 			);
 			path = Frames;
 			sourceTree = "<group>";
@@ -123,6 +126,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B7262BBB1D72A1B0006A6A6F /* LaunchScreen.storyboard in Resources */,
+				B7CE00341D72A27E00DB3723 /* Kitty.png in Resources */,
 				B7262BB81D72A1B0006A6A6F /* Assets.xcassets in Resources */,
 				B7262BB61D72A1B0006A6A6F /* Main.storyboard in Resources */,
 			);
@@ -286,6 +290,7 @@
 				B7262BC11D72A1B0006A6A6F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
