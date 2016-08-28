@@ -40,10 +40,11 @@ class ViewController: UIViewController {
 
     private func updateSliders() {
         let frame = imageView.frame
+        let superFrame = imageView.superview!.frame
         let bounds = imageView.bounds
 
-        frameXSlider.maximumValue = Float(frame.size.width)
-        frameYSlider.maximumValue = Float(frame.size.height)
+        frameXSlider.maximumValue = Float(superFrame.size.width)
+        frameYSlider.maximumValue = Float(superFrame.size.height)
         frameXSlider.value = Float(frame.origin.x)
         frameYSlider.value = Float(frame.origin.y)
 
