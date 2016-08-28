@@ -10,6 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
     @IBOutlet weak var imageView: UIImageView!
+    var yellowSquare: UIView?
 
     @IBOutlet weak var frameXSlider: UISlider!
     @IBOutlet weak var frameYSlider: UISlider!
@@ -25,6 +26,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         updateLabels()
         updateSliders()
+        updateYellowSquare()
     }
 
     private func updateLabels() {
@@ -52,6 +54,16 @@ class ViewController: UIViewController {
         boundsYSlider.maximumValue = Float(bounds.size.height)
         boundsXSlider.value = Float(bounds.origin.x)
         boundsYSlider.value = Float(bounds.origin.y)
+    }
+
+    private func updateYellowSquare() {
+        guard yellowSquare == nil else { return }
+        let origin = CGPoint(x: 0.0, y: 0.0)
+        let size = CGSize(width: 20.0, height: 20.0)
+        let rect = CGRect(origin: origin, size: size)
+        yellowSquare = UIView(frame: rect)
+        yellowSquare!.backgroundColor = UIColor.yellowColor()
+        imageView.addSubview(yellowSquare!)
     }
 
     @IBAction func frameXChanged(sender: UISlider) {
