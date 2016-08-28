@@ -53,4 +53,23 @@ class ViewController: UIViewController {
         boundsYSlider.value = Float(bounds.origin.y)
     }
 
+    @IBAction func frameXChanged(sender: UISlider) {
+        imageView.frame.origin.x = CGFloat(sender.value)
+        updateLabels()
+    }
+
+    @IBAction func frameYChanged(sender: UISlider) {
+        imageView.frame.origin.y = CGFloat(sender.value)
+        updateLabels()
+    }
+
+    @IBAction func boundsXChanged(sender: UISlider) {
+        imageView.bounds.origin.x = CGFloat(sender.value)
+        updateLabels()
+    }
+
+    @IBAction func boundsYChanged(sender: UISlider) {
+        imageView.bounds.origin.y = CGFloat(sender.value)
+        updateLabels()
+    }
 }
