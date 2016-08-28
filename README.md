@@ -1,12 +1,11 @@
 # Simple Layout
 
-
 > Need To Find A Great Quote To Put Here
- 
+
 
 ## Learning Objectives
 
-* 
+* Complete this lab
 
 
 
