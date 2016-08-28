@@ -20,30 +20,18 @@
                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" id="RmC-fU-Fip">
                                 <rect key="frame" x="18" y="206" width="118" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <connections>
-                                    <action selector="frameXChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="oLG-GQ-jbN"/>
-                                </connections>
                             </slider>
                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" id="OIO-Ve-Up4">
                                 <rect key="frame" x="18" y="244" width="118" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <connections>
-                                    <action selector="frameYChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="EP7-aj-Kt2"/>
-                                </connections>
                             </slider>
                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" id="csx-2K-OHo">
                                 <rect key="frame" x="18" y="304" width="118" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <connections>
-                                    <action selector="boundsXChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="dgM-ML-2d4"/>
-                                </connections>
                             </slider>
                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" id="BEI-Ad-CV4">
                                 <rect key="frame" x="18" y="342" width="118" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <connections>
-                                    <action selector="boundsYChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="wPt-hl-uuB"/>
-                                </connections>
                             </slider>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="frame x = ?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="yLl-5P-LrC">
                                 <rect key="frame" x="142" y="210" width="158" height="21"/>
@@ -76,17 +64,6 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <connections>
-                        <outlet property="boundsXLabel" destination="msV-mm-73P" id="OvG-wh-6eM"/>
-                        <outlet property="boundsXSlider" destination="csx-2K-OHo" id="ply-vW-WKg"/>
-                        <outlet property="boundsYLabel" destination="qVP-Q8-gfA" id="AmV-Me-fFE"/>
-                        <outlet property="boundsYSlider" destination="BEI-Ad-CV4" id="6ZI-Pi-fdH"/>
-                        <outlet property="frameXLabel" destination="yLl-5P-LrC" id="j5N-e6-YVY"/>
-                        <outlet property="frameXSlider" destination="RmC-fU-Fip" id="gjW-G8-aWB"/>
-                        <outlet property="frameYLabel" destination="eiv-8P-Yt2" id="qG5-DM-iFV"/>
-                        <outlet property="frameYSlider" destination="OIO-Ve-Up4" id="GVP-c2-bZk"/>
-                        <outlet property="imageView" destination="EJf-5n-hZP" id="xR8-3P-bK8"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
