@@ -1,9 +1,9 @@
 //
 //  AppDelegate.swift
-//  SimpleLayout
+//  Frames
 //
-//  Created by Jim Campagno on 8/23/16.
-//  Copyright © 2016 Gamesmith, LLC. All rights reserved.
+//  Created by Michael Dippery on 8/27/16.
+//  Copyright © 2016 Flatiron School. All rights reserved.
 //
 
 import UIKit
