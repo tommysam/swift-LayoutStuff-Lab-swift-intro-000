@@ -1,14 +1,14 @@
 # Frames & Bounds Lab
 
-> Need To Find A Great Quote To Put Here
+“Wonder. Go on and wonder.”  ― William Faulkner, The Sound and the Fury
 
-## Learning Objectives
+## Overview
 
-* Complete this lab
+In this lab, you'll create an app where you'll work with frames and bounds in iOS. 
 
 ## Instructions
 
-In this lab, you'll be creating an app that will allow you to investigate how frames and bounds work in iOS, and experiment with them. When you're done, your app will look like this:
+In this lab, you'll investigate how frames and bounds work in iOS, and experiment with them. When you're done, your app will look like this:
 
 ![Frames & Bounds UI](https://s3.amazonaws.com/learn-verified/ios-frames-bounds.png)
 
