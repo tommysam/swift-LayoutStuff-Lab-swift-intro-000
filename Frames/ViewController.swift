@@ -18,7 +18,7 @@ class ViewController: UIViewController {
         updateYellowSquare()
     }
 
-    private func updateLabels() {
+    fileprivate func updateLabels() {
         let frame = imageView.frame
         let bounds = imageView.bounds
 
@@ -29,7 +29,7 @@ class ViewController: UIViewController {
         boundsYLabel.text = "bounds y = \(bounds.origin.y)"
     }
 
-    private func updateSliders() {
+    fileprivate func updateSliders() {
         let frame = imageView.frame
         let superFrame = imageView.superview!.frame
         let bounds = imageView.bounds
@@ -45,32 +45,32 @@ class ViewController: UIViewController {
         boundsYSlider.value = Float(bounds.origin.y)
     }
 
-    private func updateYellowSquare() {
+    fileprivate func updateYellowSquare() {
         guard yellowSquare == nil else { return }
         let origin = CGPoint(x: 0.0, y: 0.0)
         let size = CGSize(width: 20.0, height: 20.0)
         let rect = CGRect(origin: origin, size: size)
         yellowSquare = UIView(frame: rect)
-        yellowSquare!.backgroundColor = UIColor.yellowColor()
+        yellowSquare!.backgroundColor = UIColor.yellow
         imageView.addSubview(yellowSquare!)
     }
 
-    @IBAction func frameXChanged(sender: UISlider) {
+    @IBAction func frameXChanged(_ sender: UISlider) {
         imageView.frame.origin.x = CGFloat(sender.value)
         updateLabels()
     }
 
-    @IBAction func frameYChanged(sender: UISlider) {
+    @IBAction func frameYChanged(_ sender: UISlider) {
         imageView.frame.origin.y = CGFloat(sender.value)
         updateLabels()
     }
 
-    @IBAction func boundsXChanged(sender: UISlider) {
+    @IBAction func boundsXChanged(_ sender: UISlider) {
         imageView.bounds.origin.x = CGFloat(sender.value)
         updateLabels()
     }
 
-    @IBAction func boundsYChanged(sender: UISlider) {
+    @IBAction func boundsYChanged(_ sender: UISlider) {
         imageView.bounds.origin.y = CGFloat(sender.value)
         updateLabels()
     }
